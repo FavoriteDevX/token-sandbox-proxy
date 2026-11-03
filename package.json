@@ -1,0 +1,24 @@
+{
+  "name": "token-sandbox-proxy",
+  "version": "1.0.0",
+  "description": "A development proxy server that safely routes, masks, and tests authentication tokens within an isolated sandbox environment.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "proxy",
+    "sandbox",
+    "token",
+    "security",
+    "api",
+    "development"
+  ],
+  "author": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
